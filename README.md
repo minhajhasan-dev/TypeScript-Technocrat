@@ -15,12 +15,12 @@ TypeScript provides several basic data types:
 ### Example:
 
 ```typescript
-let firstName: string = "Hafsa";
+let firstName: string = "Minhaj";
 let rollNumber: number = 123;
 let isAdmin: boolean = true;
 let x: undefined = undefined;
 let y: null = null;
-let friends: string[] = ["Hafsa", "Emu", "Sara"];
+let friends: string[] = ["Minhaj", "Hasan", "Sourov"];
 let coordinates: [number, number] = [10, 20];
 ```
 
@@ -347,7 +347,7 @@ interface RoyalEnfield {
 }
 
 const richDeveloper: Developer<AppleWatch, RoyalEnfield> = {
-  name: "Hafsa",
+  name: "Minhaj",
   computer: { brand: "HP", model: "Core i5 10th Gen", releaseYear: 2018 },
   smartWatch: {
     brand: "Xiomi",
@@ -394,7 +394,7 @@ const addCourseToStudent = <T>(student: T) => {
   return { ...student, course };
 };
 const student1 = addCourseToStudent({ name: "Minhaj", email: "minhaj@x.com" });
-const student2 = addCourseToStudent({ name: "Hafsa", email: "hafsa@x.com" });
+const student2 = addCourseToStudent({ name: "Minhaj", email: "Minhaj@x.com" });
 ```
 
 ## 2.6 Constraints with Generics
@@ -419,8 +419,8 @@ const student1 = addCourseToStudent({
 });
 const student2 = addCourseToStudent({
   id: 2,
-  name: "Hafsa",
-  email: "hafsa@x.com",
+  name: "Minhaj",
+  email: "Minhaj@x.com",
 });
 ```
 
